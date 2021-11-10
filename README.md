@@ -26,5 +26,5 @@ Steps:
     The pyton version you install on this environment depends on the tensorflow version you need
 9) Install CUDA Toolkit and cuDNN
     I. type: conda install -c anaconda cudatoolkit='version'
-10) Install tensorflow
+10) Install tensorflow-gpu
     I. type: conda install tensorflow=='version'
