@@ -40,6 +40,8 @@ OR
 10) Install tensorflow-gpu
     * I. type: conda install -c anaconda tensorflow-gpu
 11) Install Jupyter Notebook
-    * I. type: conda install jupyternotebook
+    * I. type: conda install jupyter
 12) Register your environment
     * type: python -m ipykernel install --user --name tensorflow --display-name 'Tensorflow (Py3.8)'
+
+Note: try to keep with only using conda install for everything. Tensorflow reccommends using pip to install Tensorflow, but conda also works and it is better to use the same install type. Mixing conda and pip can cause issues.
